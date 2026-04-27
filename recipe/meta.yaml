@@ -1,5 +1,5 @@
 {% set name = "snmpsim" %}
-{% set version = "1.2.1" %}
+{% set version = "1.2.2" %}
 
 package:
   name: {{ name }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/s/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 7464160d7c7c603b18780fd00758b71bee8022ace5f51264c09b2e019f33f317
+  sha256: 392ff37e29f788ec54669d5bd7d091b0d7100fd865428a6dde904176ea68d2d9
 
 build:
   noarch: python
